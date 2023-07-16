@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5rem;
+}
+
+.banner {
+  background: url(assets/bg-1.png) no-repeat;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-family: "Archivo", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.banner p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.founders {
+  background: url(assets/bg-2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.founders .heading h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f64b3c;
+}
+.founders .heading p {
+  color: #f64b3c;
+  font-size: 1.5rem;
+}
+.founders .content h3 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f64b3c;
+}
+.founders .content p {
+  color: #f64b3c;
+}
+
+.best {
+  background: #f64b3c;
+}
+.best .content .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.best .content .text p {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.big {
+  background: url(assets/bg-2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.big .content .text h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f64b3c;
+}
+.big .content .text p {
+  font-size: 1.5rem;
+  color: #f64b3c;
+}
+
+.statics {
+  background: #f64b3c;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.statics .heading h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.statics .heading p {
+  color: #f64b3c;
+  font-size: 1.5rem;
+}
+
+.package {
+  background: url(assets/bg-2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.package .heading h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f64b3c;
+}
+.package .heading p {
+  color: #f64b3c;
+  font-size: 1.5rem;
+}
+
+.quote {
+  background: url(assets/Quote_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.quote .content p {
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+.quote .content h3 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.email {
+  background: url(assets/bg-2.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.email .heading h2 {
+  font-family: "Archivo", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f64b3c;
+}
+.email .heading p {
+  color: #f64b3c;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 950px) {
+  html {
+    font-size: 70%;
+  }
+}/*# sourceMappingURL=style.css.map */

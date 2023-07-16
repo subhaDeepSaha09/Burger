@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$head-font : 'Archivo', sans-serif; 
+$sec-font : 'Poppins', sans-serif;
+$black : #000000;
+$main-color : #f64b3c;
+$sec-color : #ffffff;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $sec-font;
+    text-decoration: none;
+}
+
+html {
+    // font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        background: $sec-color;
+        border-radius: 5rem;
+    }
+}
+
+.banner {
+    background: url(assets/bg-1.png) no-repeat;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        font-family: $head-font;
+        font-size: 3.75rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: $sec-color;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        color: $sec-color;
+    }
+}
+
+.founders {
+    background: url(assets/bg-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    .heading {
+        h2 {
+            font-family: $head-font;
+            font-size: 3rem;
+            font-weight: 700;
+            color: $main-color;
+        }
+
+        p {
+            color: $main-color;
+            font-size: 1.5rem;
+        }
+    }
+
+    .content {
+        h3 {
+            font-family: $head-font;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $main-color;
+        }
+
+        p {
+            color: $main-color;
+        }
+    }
+    
+}
+
+.best {
+    background: $main-color;
+
+    .content {
+        .text {
+            h2 {
+                font-family: $head-font;
+                font-size: 4rem;
+                font-weight: 700;
+                color: $sec-color;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: $sec-color;
+            }
+        }
+    }
+}
+
+.big {
+    background: url(assets/bg-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .content {
+        .text {
+            h2 {
+                font-family: $head-font;
+                font-size: 4rem;
+                font-weight: 700;
+                color: $main-color;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: $main-color;
+            }
+        }
+    }
+}
+
+.statics {
+    background: $main-color;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    .heading {
+        h2 {
+            font-family: $head-font;
+            font-size: 4rem;
+            font-weight: 700;
+            color: $sec-color;
+        }
+
+        p {
+            color: $main-color;
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+.package {
+    background: url(assets/bg-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .heading {
+        h2 {
+            font-family: $head-font;
+            font-size: 4rem;
+            font-weight: 700;
+            color: $main-color;
+        }
+
+        p {
+            color: $main-color;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.quote {
+    background: url(assets/Quote_bg.png);
+    background-size: cover;
+    background-position: center;
+
+    .content {
+        p {
+            color: $sec-color;
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-family: $head-font;
+            font-weight: 700;
+            color: $sec-color;
+        }
+    }
+}
+
+.email {
+    background: url(assets/bg-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .heading {
+        h2 {
+            font-family: $head-font;
+            font-size: 4rem;
+            font-weight: 700;
+            color: $main-color;
+        }
+
+        p {
+            color: $main-color;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+
+
+
+@media (max-width:950px) {
+
+    html {
+        font-size: 70%;
+    }
+}
